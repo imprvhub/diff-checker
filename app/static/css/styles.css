@@ -1,0 +1,281 @@
+body {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(0, 0, 0);
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    box-sizing: border-box;
+    backdrop-filter: blur(25px) saturate(200%);
+    -webkit-backdrop-filter: blur(25px) saturate(200%);
+    background-color: rgba(24, 24, 25, 0.6);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+    margin-bottom: 20px;
+}
+
+
+.logo-link {
+    margin-right: 10px;
+}
+
+.logo-style {
+    width: 50px;
+    height: 50px;
+}
+
+.heading-4 {
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.8);
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.paragraph {
+    font-size: 10px;
+    color: rgba(255, 255, 255, 0.8);
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.header-paragraph {
+    font-size: 10px;
+    color: rgba(255, 255, 255, 0.8);
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-top: -5px;
+}
+        
+.paragraph-2 {
+    font-size: 10px;
+    color: rgba(255, 255, 255, 0.8);
+    letter-spacing: 2px;
+}
+
+.card {
+    backdrop-filter: blur(25px) saturate(200%);
+    -webkit-backdrop-filter: blur(25px) saturate(200%);
+    background-color: rgba(24, 24, 25, 0.6);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.footer-card {
+    backdrop-filter: blur(25px) saturate(200%);
+    -webkit-backdrop-filter: blur(25px) saturate(200%);
+    background-color: rgba(24, 24, 25, 0.6);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+#explanation {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    max-width: 400px;
+    overflow-y: auto;
+    max-height: 250px;
+    font-size: 11px;
+    color: rgba(255, 255, 255, 0.8);
+    letter-spacing: 2px;
+}
+
+.socials-container {
+    font-size: 10px;
+    color: rgba(255, 255, 255, 0.8);
+    letter-spacing: 2px;
+}
+
+.ivanlunadev-link,
+.github-link,
+.linkedin-link {
+    text-decoration: none;
+    color: inherit;    
+}
+
+
+.ivanlunadev-link:hover,
+.github-link:hover,
+.linkedin-link:hover {
+    color: white;
+}
+
+
+.paragraph-link {
+    color: white; 
+    text-decoration: underline;
+}
+
+
+
+/* MobileS (320px) */
+@media (max-width: 320px) {
+    #explanation {
+        max-width: 280px;
+    }
+    h1 {
+        font-size: 20px;
+    }
+    h2 {
+        font-size: 14px;
+    }
+    .card {
+        max-width: 280px;
+    }
+    .footer-card {
+        max-width: 280px;
+    }
+    .logo-style {
+        width: 20px;
+        height: 20px;
+    }
+}
+
+/* MobileM (375px) */
+@media (min-width: 321px) and (max-width: 375px) {
+    h1 {
+        font-size: 22px;
+    }
+    h2 {
+        font-size: 12px;
+    }
+    .card {
+        max-width: 330px;
+    }
+    .footer-card {
+        max-width: 330px;
+    }
+    .logo-style {
+        width: 36px;
+        height: 36px;
+    }
+}
+
+/* MobileL (425px) */
+@media (min-width: 376px) and (max-width: 425px) {
+    h1 {
+        font-size: 24px;
+    }
+    h2 {
+        font-size: 14px;
+    }
+    .card {
+        max-width: 380px;
+    }
+    .footer-card {
+        max-width: 380px;
+    }
+    
+    .logo-style {
+        width: 38px;
+        height: 38px;
+    }
+}
+
+/* Tablet (768px) */
+@media (min-width: 426px) and (max-width: 768px) {
+    h1 {
+        font-size: 28px;
+    }
+    h2 {
+        font-size: 16px;
+    }
+    .card {
+        max-width: 600px;
+    }
+    .footer-card {
+        max-width: 600px;
+    }
+    
+    .logo-style {
+        width: 42px;
+        height: 42px;
+    }
+}
+
+/* Laptop (1024px) */
+@media (min-width: 769px) and (max-width: 1024px) {
+    h1 {
+        font-size: 32px;
+    }
+    h2 {
+        font-size: 18px;
+    }
+    .card {
+        max-width: 800px;
+    }
+    .footer-card {
+        max-width: 800px;
+    }
+    
+    .logo-style {
+        width: 46px;
+        height: 46px;
+    }
+}
+
+/* LaptopL (1440px) */
+@media (min-width: 1025px) and (max-width: 1440px) {
+    h1 {
+        font-size: 36px;
+    }
+    h2 {
+        font-size: 20px;
+    }
+    .card {
+        max-width: 1200px;
+    }
+    .footer-card {
+        max-width: 1200px;
+    }
+    
+    .logo-style {
+        width: 50px;
+        height: 50px;
+    }
+}
+
+/* 4K (2560px) */
+@media (min-width: 1440px) and (max-width: 3840px) {
+    h1 {
+        font-size: 48px;
+    }
+    h2 {
+        font-size: 28px;
+    }
+    .card {
+        max-width: 1400px;
+    }
+    .footer-card {
+        max-width: 1400px;
+    }
+    .logo-style {
+        width: 64px;
+        height: 64px;
+    }   
+}
